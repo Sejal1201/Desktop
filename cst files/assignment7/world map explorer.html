@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>World Map Explorer</title>
+</head>
+<body style="background-color: lightblue; text-align: center;">
+
+    <h1>🌍 World Map Explorer</h1>
+    <h3>Click on a country to know more!</h3>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/World_map_-_low_resolution.svg"
+         alt="World Map"
+         usemap="#world"
+         width="800">
+
+    <map name="world">
+
+        <!-- India -->
+        <area shape="circle"
+              coords="560,300,35"
+              href="https://en.wikipedia.org/wiki/India"
+              alt="India"
+              target="_blank">
+
+        <!-- USA -->
+        <area shape="rect"
+              coords="100,120,250,230"
+              href="https://en.wikipedia.org/wiki/United_States"
+              alt="United States"
+              target="_blank">
+
+        <!-- Australia -->
+        <area shape="poly"
+              coords="620,390,680,370,730,400,700,450,650,440"
+              href="https://en.wikipedia.org/wiki/Australia"
+              alt="Australia"
+              target="_blank">
+
+        <!-- Canada -->
+        <area shape="rect"
+              coords="100,60,260,120"
+              href="https://en.wikipedia.org/wiki/Canada"
+              alt="Canada"
+              target="_blank">
+
+        <!-- Default area -->
+        <area shape="default"
+              href="https://en.wikipedia.org/wiki/World"
+              alt="World"
+              target="_blank">
+
+    </map>
+
+    <p>Explore India, USA, Australia and Canada!</p>
+
+</body>
+</html>

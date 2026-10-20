@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Interactive Restaurant Menu</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Interactive Restaurant Menu</h1>
+<p>Click on any food item to see its details.</p>
+
+<div class="map-wrap">
+<img src="menu.jpg" width="1000" height="666" usemap="#foodmap" alt="Fast food menu with pizza, burger, french fries, sandwich and chocolate cake">
+</div>
+
+<map name="foodmap">
+  <area shape="circle" coords="112,228,112" href="pizza.html" target="_blank" alt="Pepperoni Pizza">
+  <area shape="circle" coords="347,302,105" href="burger.html" target="_blank" alt="Classic Cheeseburger">
+  <area shape="rect" coords="709,66,994,394" href="fries.html" target="_blank" alt="French Fries">
+  <area shape="rect" coords="344,28,706,541" href="menucard.html" target="_blank" alt="Fast Food Menu Card">
+  <area shape="poly" coords="56,478,197,382,275,406,306,456,366,553,403,641,188,666,134,650,94,578,66,531" href="sandwich.html" target="_blank" alt="Club Sandwich">
+  <area shape="poly" coords="719,494,738,472,950,512,938,562,900,647,862,625,750,550" href="cake.html" target="_blank" alt="Chocolate Cake Slice">
+  <!-- default: keep last, covers the remaining area -->
+  <area shape="default" href="other.html" target="_blank" alt="Remaining area of the image">
+</map>
+
+</body>
+</html>
